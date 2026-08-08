@@ -1,10 +1,9 @@
 # GILDAL — marketing site
 
-Static homepage + brochure for **gildal.com**, served via GitHub Pages.
-Self-contained (system fonts + inline SVG, no external assets).
+Static site for **gildal.com**, served via GitHub Pages.
+Self-contained: system fonts + inline SVG, no external assets, no trackers, no build step.
 
-- `index.html` — homepage
-- `brochure.html` — 5-page A4 product brochure (Print / Save as PDF)
-- `CNAME` — custom domain binding (gildal.com)
-
-Canonical source lives in the private GILDAL repo under `homepage/`; this repo is the published mirror.
+- `index.html` / `ko/index.html` — homepage (EN / KO)
+- `brochure.html` / `ko/brochure.html` — product brochure (Print / Save as PDF)
+- `GILDAL-Brochure.pdf` / `ko/GILDAL-Brochure.pdf` — brochure PDF
+- `CNAME` — custom domain (www.gildal.com)

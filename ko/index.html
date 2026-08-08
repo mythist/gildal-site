@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
 <title>GILDAL — 거버넌스 기반 자율 레드팀 플랫폼</title>
 <meta name="description" content="GILDAL은 거버넌스 아래에서 자율로 동작하는 레드팀입니다. 합의된 범위 안, 격리된 환경에 봉인된 채 실제로 악용 가능한 취약점만 안전하게 찾아 증명하고, 전 과정 감사 로그를 남깁니다." />
 <!--
@@ -593,8 +595,9 @@
   <div class="wrap">
     <h2>이제 <span class="accent">지휘소</span>에<br>불을 켤 시간입니다.</h2>
     <div class="tagline">GILDAL — 거버넌스 기반 자율 공격 보안</div>
+    <div style="margin-top:14px; font-size:15px; color:var(--ink-dim);">데모·문의 — <a href="mailto:hello@gildal.com" style="color:var(--accent); text-decoration:underline;">hello@gildal.com</a></div>
     <div class="hero-cta">
-      <a class="btn btn-primary" href="mailto:hello@gildal.ai?subject=GILDAL%20demo%20request">데모 요청
+      <a class="btn btn-primary" href="mailto:hello@gildal.com?subject=GILDAL%20demo%20request">데모 요청
         <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
       <a class="btn btn-ghost" href="https://www.gildal.com/ko/GILDAL-Brochure.pdf" download>브로슈어 다운로드 (PDF)

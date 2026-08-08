@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
 <title>GILDAL — Governed Autonomous Red Team Platform</title>
 <meta name="description" content="GILDAL runs a governed autonomous red team that finds and proves what's actually exploitable — safely, within an agreed scope and sealed inside an isolated environment. Only confirmed vulnerabilities, with a full audit trail." />
 <!--
@@ -648,8 +650,9 @@
   <div class="wrap">
     <h2>Time to light up<br>the <span class="accent">command center</span>.</h2>
     <div class="tagline">GILDAL — Governed autonomous offensive security</div>
+    <div style="margin-top:14px; font-size:15px; color:var(--ink-dim);">Demo &amp; enquiries — <a href="mailto:hello@gildal.com" style="color:var(--accent); text-decoration:underline;">hello@gildal.com</a></div>
     <div class="hero-cta">
-      <a class="btn btn-primary" href="mailto:hello@gildal.ai?subject=GILDAL%20demo%20request">Request a demo
+      <a class="btn btn-primary" href="mailto:hello@gildal.com?subject=GILDAL%20demo%20request">Request a demo
         <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
       <a class="btn btn-ghost" href="https://www.gildal.com/GILDAL-Brochure.pdf" download>Download brochure (PDF)
